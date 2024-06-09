@@ -1,39 +1,54 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Underscore
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+[![pub package](https://img.shields.io/pub/v/shimmer.svg)](https://pub.dartlang.org/packages/shimmer) [![](https://img.shields.io/badge/license-MIT-green)](https://github.com/bitinfinitywebsolutions/underscore/blob/master/LICENSE)
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+Underscore is a dart utility library for efficient Flutter development.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Underscore offers a versatile collection of over 100 functions tailored for everyday functional
+needs such as mapping, filtering, and invoking, alongside specialized tools like function binding,
+dart templating, rapid index creation, and comprehensive deep equality testing.
 
-## Features
+## How to use
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+#### 1. Depend on it
 
-## Getting started
+Add this to your package's pubspec.yaml file:
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```
+dependencies:
+  underscore: ^0.0.1
 ```
 
-## Additional information
+#### 2. Install it
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+You can install packages from the command line:
+
+with Flutter:
+
+```
+$ flutter packages get
+```
+
+Alternatively, your editor might support `flutter packages get`. Check the docs for your editor to
+learn more.
+
+#### 3. Import it
+
+Now in your Dart code, you can use:
+
+```dart
+import 'package:underscore/underscore.dart';
+```
+
+#### 4. Import it
+
+Now in your Dart code, you can use:
+
+```dart
+ContentPlaceholder.block
+(
+width: 100,
+height: 100,
+rightSpacing: 10,
+)
+```
