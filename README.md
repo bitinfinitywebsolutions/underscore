@@ -26,7 +26,7 @@ You can install packages from the command line:
 with Flutter:
 
 ```
-$ flutter packages get
+$ flutter pub add underscore
 ```
 
 Alternatively, your editor might support `flutter packages get`. Check the docs for your editor to
