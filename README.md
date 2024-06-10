@@ -37,10 +37,10 @@ learn more.
 Now in your Dart code, you can use:
 
 ```dart
-import 'package:underscore/underscore.dart';
+import 'package:underscore/underscore.dart' as _;
 ```
 
-#### 4. Import it
+#### 4. Use it
 
 Now in your Dart code, you can use:
 
