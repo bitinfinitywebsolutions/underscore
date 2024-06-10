@@ -1,6 +1,8 @@
 # Underscore
 
-[![pub package](https://img.shields.io/pub/v/shimmer.svg)](https://pub.dartlang.org/packages/shimmer) [![](https://img.shields.io/badge/license-MIT-green)](https://github.com/bitinfinitywebsolutions/underscore/blob/master/LICENSE)
+[![pub package](https://img.shields.io/pub/v/underscore.svg)](https://pub.dartlang.org/packages/underscore)
+[![pub points](https://img.shields.io/pub/points/underscore?color=2E8B57&label=pub%20points)](https://pub.dev/packages/underscore/score)
+[![](https://img.shields.io/badge/license-MIT-green)](https://github.com/bitinfinitywebsolutions/underscore/blob/master/LICENSE)
 
 Underscore is a dart utility library for efficient Flutter development.
 
