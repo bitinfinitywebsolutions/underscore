@@ -1,7 +1,7 @@
 # Underscore
 
 [![pub package](https://img.shields.io/pub/v/underscore.svg)](https://pub.dartlang.org/packages/underscore)
-[![pub likes](https://img.shields.io/pub/likes/flutter_easy_validator)](https://pub.dev/packages/underscore/score)
+[![pub likes](https://img.shields.io/pub/likes/underscore)](https://pub.dev/packages/underscore/score)
 [![pub points](https://img.shields.io/pub/points/underscore?color=2E8B57&label=pub%20points)](https://pub.dev/packages/underscore/score)
 [![](https://img.shields.io/badge/license-MIT-green)](https://github.com/bitinfinitywebsolutions/underscore/blob/master/LICENSE)
 
