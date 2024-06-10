@@ -5,6 +5,12 @@ repository: https://github.com/bitinfinitywebsolutions/underscore
 homepage: https://github.com/bitinfinitywebsolutions/underscore.git
 issue_tracker: https://github.com/bitinfinitywebsolutions/underscore/issues
 
+topics:
+  - dart
+  - utility
+  - underscore
+  - lodash
+
 environment:
   sdk: '>=3.4.1 <4.0.0'
   flutter: ">=1.17.0"
