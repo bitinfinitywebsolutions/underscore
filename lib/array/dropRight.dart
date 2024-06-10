@@ -7,15 +7,15 @@
 ///
 /// Example:
 /// ```dart
-/// _dropRight([1, 2, 3]); // => [1, 2]
+/// dropRight([1, 2, 3]); // => [1, 2]
 ///
-/// _dropRight([1, 2, 3], 2); // => [1]
+/// dropRight([1, 2, 3], 2); // => [1]
 ///
-/// _dropRight([1, 2, 3], 5); // => []
+/// dropRight([1, 2, 3], 5); // => []
 ///
-/// _dropRight([1, 2, 3], 0); // => [1, 2, 3]
+/// dropRight([1, 2, 3], 0); // => [1, 2, 3]
 /// ```
-List<T> _dropRight<T>(List<T> array, [int n = 1]) {
+List<T> dropRight<T>(List<T> array, [int n = 1]) {
   if (n < 0) {
     throw ArgumentError('n cannot be negative');
   }

@@ -1,5 +1,3 @@
-import '../underscore.dart';
-
 /// Joins the elements of an array into a single string using the specified separator.
 ///
 /// If the array is null or empty, returns the array itself.
@@ -15,4 +13,14 @@ String _join(List array, dynamic takeVal) {
     return array.join(takeVal);
   }
   return array.toString();
+}
+
+bool isNullOrBlank(dynamic val) {
+  if (val is List) {
+    if (val.isEmpty) return true;
+    return false;
+  } else {
+    if (val == null || val == '' || val.toString().isEmpty) return true;
+    return false;
+  }
 }

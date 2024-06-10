@@ -12,10 +12,10 @@
 /// ```dart
 /// var originalList = [1, 2, 3];
 /// var valuesToAdd = [4, [5, 6], 7];
-/// var concatenatedList = _concat<int>(originalList, valuesToAdd);
+/// var concatenatedList = concat<int>(originalList, valuesToAdd);
 /// print(concatenatedList); // Output: [1, 2, 3, 4, 5, 6, 7]
 /// ```
-List<T> _concat<T>(List<T> array, List<dynamic> values) {
+List<T> concat<T>(List<T> array, List<dynamic> values) {
   List<T> result = List<T>.from(array); // Copy the original array
 
   for (var value in values) {

@@ -15,18 +15,18 @@
 /// Example:
 /// ```dart
 /// var list1 = [1, 2, 3];
-/// _fill(list1, 'a');
+/// fill(list1, 'a');
 /// print(list1); // Output: ['a', 'a', 'a']
 ///
 /// var list2 = List<int>.filled(3, 0);
-/// _fill(list2, 2);
+/// fill(list2, 2);
 /// print(list2); // Output: [2, 2, 2]
 ///
 /// var list3 = [4, 6, 8, 10];
-/// _fill(list3, '*', 1, 3);
+/// fill(list3, '*', 1, 3);
 /// print(list3); // Output: [4, '*', '*', 10]
 /// ```
-List<T> _fill<T>(List<T> array, dynamic value, [int start = 0, int? end]) {
+List<T> fill<T>(List<T> array, dynamic value, [int start = 0, int? end]) {
   end ??= array.length;
   for (int i = start; i < end; i++) {
     array[i] = value;

@@ -9,10 +9,10 @@
 /// ```dart
 /// var originalList = [1, 2, 3, 4, 5];
 /// var valuesToExclude = [3, 5];
-/// var differenceList = _difference<int>(originalList, valuesToExclude);
+/// var differenceList = difference<int>(originalList, valuesToExclude);
 /// print(differenceList); // Output: [1, 2, 4]
 /// ```
-List<T> _difference<T>(List<T> array, [List<T>? values]) {
+List<T> difference<T>(List<T> array, [List<T>? values]) {
   if (values == null || values.isEmpty) {
     return List.from(array);
   }

@@ -1,6 +1,6 @@
 /// Returns a new list with all null, empty, false, or NaN elements removed from the input list.
 ///
-/// The `_compact` function takes a list of elements of type `T` as input and returns a new list
+/// The `compact` function takes a list of elements of type `T` as input and returns a new list
 /// containing only the elements that are not null, not empty (for strings), not false (for booleans),
 /// not zero and not NaN (for numbers).
 ///
@@ -8,7 +8,7 @@
 ///
 /// ```dart
 /// List<int> numbers = [1, 0, 3, null, 5, 6];
-/// List<int> compactedNumbers = _compact(numbers);
+/// List<int> compactedNumbers = compact(numbers);
 /// print(compactedNumbers); // Output: [1, 3, 5, 6]
 /// ```
 ///
@@ -26,7 +26,7 @@
 ///   - For numbers, only non-zero and non-NaN elements are included.
 ///   - For strings, only non-empty elements are included.
 ///
-List<T> _compact<T>(List<T> array) {
+List<T> compact<T>(List<T> array) {
   return array.where((element) {
     if (element is bool) {
       return element;

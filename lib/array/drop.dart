@@ -7,12 +7,12 @@
 ///
 /// Example:
 /// ```dart
-/// final result1 = _drop([1, 2, 3]); // => [2, 3]
-/// final result2 = _drop([1, 2, 3], 2); // => [3]
-/// final result3 = _drop([1, 2, 3], 5); // => []
-/// final result4 = _drop([1, 2, 3], 0); // => [1, 2, 3]
+/// final result1 = drop([1, 2, 3]); // => [2, 3]
+/// final result2 = drop([1, 2, 3], 2); // => [3]
+/// final result3 = drop([1, 2, 3], 5); // => []
+/// final result4 = drop([1, 2, 3], 0); // => [1, 2, 3]
 /// ```
-List<T> _drop<T>(List<T> array, [int n = 1]) {
+List<T> drop<T>(List<T> array, [int n = 1]) {
   if (n < 0) {
     throw ArgumentError('n cannot be negative');
   }

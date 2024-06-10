@@ -4,10 +4,10 @@
 ///
 /// Example:
 /// ```dart
-/// final result1 = _chunk(['a', 'b', 'c', 'd'], 2);
+/// final result1 = chunk(['a', 'b', 'c', 'd'], 2);
 /// // Result: [['a', 'b'], ['c', 'd']]
 ///
-/// final result2 = _chunk(['a', 'b', 'c', 'd'], 3);
+/// final result2 = chunk(['a', 'b', 'c', 'd'], 3);
 /// // Result: [['a', 'b', 'c'], ['d']]
 /// ```
 ///
@@ -15,7 +15,7 @@
 /// - [size]: The size of each chunk.
 ///
 /// Returns the new list of chunks.
-List<List<T>> _chunk<T>(List<T> array, [int size = 1]) {
+List<List<T>> chunk<T>(List<T> array, [int size = 1]) {
   if (size < 1) {
     throw ArgumentError('Size must be greater than 0');
   }

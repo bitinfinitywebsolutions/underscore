@@ -1,7 +1,9 @@
 name: underscore
 description: "Underscore is a dart utility library for efficient Flutter development."
 version: 0.0.1
-homepage:
+repository: https://github.com/bitinfinitywebsolutions/underscore
+homepage: https://github.com/bitinfinitywebsolutions/underscore.git
+issue_tracker: https://github.com/bitinfinitywebsolutions/underscore/issues
 
 environment:
   sdk: '>=3.4.1 <4.0.0'
