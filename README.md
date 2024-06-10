@@ -45,10 +45,10 @@ import 'package:underscore/underscore.dart' as _;
 Now in your Dart code, you can use:
 
 ```dart
-ContentPlaceholder.block
-(
-width: 100,
-height: 100,
-rightSpacing: 10,
-)
+var users = [
+    { 'user': 'barney', 'age': 36, 'active': true },
+    { 'user': 'fred',   'age': 40, 'active': false }
+];
+_.filter(users, (o) => !(o['active']));
+// output:  { 'user': 'fred', 'age': 40, 'active': false }
 ```
