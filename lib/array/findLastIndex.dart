@@ -42,7 +42,8 @@
 ///
 /// The index of the last element in the [array] for which the [predicate] function returns `true`.
 /// If no such element is found, returns `-1`.
-int findLastIndex(List<dynamic> array, [bool Function(dynamic)? predicate, int fromIndex = -1]) {
+int findLastIndex(List<dynamic> array,
+    [bool Function(dynamic)? predicate, int fromIndex = -1]) {
   if (fromIndex < 0) {
     fromIndex += array.length;
   }
@@ -60,4 +61,3 @@ int findLastIndex(List<dynamic> array, [bool Function(dynamic)? predicate, int f
   }
   return -1;
 }
-

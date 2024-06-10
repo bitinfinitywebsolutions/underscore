@@ -15,7 +15,8 @@
 List<R> zipWith<R>(List<List> arrays, R Function(List<dynamic>) iteratee) {
   if (arrays.isEmpty) return [];
 
-  final int length = arrays.map((arr) => arr.length).reduce((a, b) => a < b ? a : b);
+  final int length =
+      arrays.map((arr) => arr.length).reduce((a, b) => a < b ? a : b);
   final List<R> result = List<R>.generate(length, (index) {
     final group = arrays.map((arr) => arr[index]).toList();
     return iteratee(group);

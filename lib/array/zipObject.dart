@@ -10,7 +10,8 @@
 /// zipObject(['a', 'b'], [1, 2]); // {'a': 1, 'b': 2}
 /// ```
 Map<K, V> zipObject<K, V>(List<K> keys, List<V> values) {
-  if (keys.length != values.length && !(keys.isEmpty && values.every((element) => element == null))) {
+  if (keys.length != values.length &&
+      !(keys.isEmpty && values.every((element) => element == null))) {
     throw ArgumentError('Keys and values arrays must have the same length.');
   }
 
@@ -22,4 +23,3 @@ Map<K, V> zipObject<K, V>(List<K> keys, List<V> values) {
 
   return result;
 }
-
