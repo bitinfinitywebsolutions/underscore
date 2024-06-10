@@ -24,6 +24,7 @@ export 'package:underscore/array/zipWith.dart';
 export 'package:underscore/array/zipObject.dart';
 export 'package:underscore/array/zip.dart';
 export 'package:underscore/array/reverse.dart';
+export 'package:underscore/array/indexOf.dart';
 
 // TODO :: String
 export 'package:underscore/string/camelCase.dart';
