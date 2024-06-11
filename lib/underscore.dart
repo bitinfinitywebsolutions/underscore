@@ -1,6 +1,6 @@
 // Copyright (c) 2024, BITINFINITY WEB SOLUTIONS PVT LTD.  Please see the AUTHORS file
 // for details. All rights reserved. Use of this source code is governed by a
-// BSD-style license that can be found in the LICENSE file.
+// MIT license that can be found in the LICENSE file.
 
 library underscore;
 
@@ -25,6 +25,16 @@ export 'package:underscore/array/zipObject.dart';
 export 'package:underscore/array/zip.dart';
 export 'package:underscore/array/reverse.dart';
 export 'package:underscore/array/indexOf.dart';
+export 'package:underscore/array/last.dart';
+export 'package:underscore/array/slice.dart';
+
+// TODO :: Collection
+export "package:underscore/collection/sortBy.dart";
+export "package:underscore/collection/size.dart";
+export "package:underscore/collection/groupBy.dart";
+export "package:underscore/collection/filter.dart";
+export "package:underscore/collection/shuffle.dart";
+export "package:underscore/collection/some.dart";
 
 // TODO :: String
 export 'package:underscore/string/camelCase.dart';
@@ -37,12 +47,6 @@ export 'package:underscore/string/words.dart';
 export "package:underscore/util/property.dart";
 export "package:underscore/util/matchesProperty.dart";
 export "package:underscore/util/matches.dart";
-
-// TODO :: Collection
-export "package:underscore/collection/sortBy.dart";
-export "package:underscore/collection/size.dart";
-export "package:underscore/collection/groupBy.dart";
-export "package:underscore/collection/filter.dart";
 
 // TODO :: Lang
 export 'package:underscore/lang/isInteger.dart';
