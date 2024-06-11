@@ -1,4 +1,4 @@
-## 0.0.2 - 2024-06-11
+## 0.0.2
 
 ### Added
 
@@ -12,6 +12,6 @@
 - Updated examples for existing functions.
 - Enhanced and optimized some library functions.
 
-## 0.0.1 - 2024-06-10
+## 0.0.1
 
 - Initial release
