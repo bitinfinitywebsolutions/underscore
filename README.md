@@ -19,7 +19,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
-  underscore: ^0.0.1
+  underscore: ^0.0.2
 ```
 
 #### 2. Install it
