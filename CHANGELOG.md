@@ -1,3 +1,10 @@
+## 0.0.3
+
+### Changed
+
+- Updated examples for existing functions.
+- Enhanced and optimized some library functions.
+
 ## 0.0.2
 
 ### Added
