@@ -44,7 +44,7 @@ Map<dynamic, List<dynamic>> groupBy(Iterable collection, [dynamic iteratee]) {
   var result = <dynamic, List<dynamic>>{};
 
   for (var element in collection) {
-    var key;
+    dynamic key;
     if (iteratee == null) {
       key = element;
     } else if (iteratee is Function) {

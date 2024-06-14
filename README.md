@@ -19,7 +19,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
-  underscore: ^0.0.4
+  underscore: ^0.0.5
 ```
 
 #### 2. Install it
@@ -48,10 +48,13 @@ import 'package:underscore/underscore.dart' as _;
 Now in your Dart code, you can use:
 
 ```dart
+
 var users = [
-    { 'user': 'barney', 'age': 36, 'active': true },
-    { 'user': 'fred',   'age': 40, 'active': false }
+  { 'user': 'barney', 'age': 36, 'active': true},
+  { 'user': 'fred', 'age': 40, 'active': false}
 ];
-print(_.filter(users, (o) => !(o['active'])));
+print
+(
+_.filter(users, (o) => !(o['active'])));
 // output:  { 'user': 'fred', 'age': 40, 'active': false }
 ```
