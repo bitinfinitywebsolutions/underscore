@@ -51,7 +51,7 @@
 ///   - [List]
 dynamic get(Map<String, dynamic> map, String path, [dynamic defaultValue]) {
   dynamic result = map;
-  final pathSegments = _parsePath(path);
+  final pathSegments = parsePath(path);
 
   for (var segment in pathSegments) {
     if (result is Map<String, dynamic> && result.containsKey(segment)) {
@@ -66,7 +66,7 @@ dynamic get(Map<String, dynamic> map, String path, [dynamic defaultValue]) {
 }
 
 /// Parses the path string into a list of keys and indices.
-List<dynamic> _parsePath(String path) {
+List<dynamic> parsePath(String path) {
   final segments = <dynamic>[];
   final regex = RegExp(r'(\w+)|\[(\d+)\]');
   final matches = regex.allMatches(path);

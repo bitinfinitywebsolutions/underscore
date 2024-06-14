@@ -9,12 +9,12 @@
 /// Example:
 /// ```dart
 /// var array = [1, 2, 3, 4];
-/// var evens = _remove(array, (n) => n % 2 == 0);
+/// var evens = remove(array, (n) => n % 2 == 0);
 ///
 /// print(array); // => [1, 3]
 /// print(evens); // => [2, 4]
 /// ```
-List<T> _remove<T>(List<T> array, [bool Function(T)? predicate]) {
+List<T> remove<T>(List<T> array, [bool Function(T)? predicate]) {
   List<T> removed = [];
   int i = 0;
   while (i < array.length) {

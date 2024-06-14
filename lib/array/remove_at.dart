@@ -8,13 +8,13 @@
 /// Example:
 /// ```dart
 /// List<int> numbers = [1, 2, 3, 4, 5];
-/// _removeAt(numbers, 2); // Removes element at index 2 (3)
+/// removeAt(numbers, 2); // Removes element at index 2 (3)
 /// print(numbers); // Output: [1, 2, 4, 5]
 /// ```
 ///
 /// Returns the modified [list] after removing the element, or the original
 /// [list] if the [index] is out of bounds.
-List<T> _removeAt<T>(List<T> list, int index) {
+List<T> removeAt<T>(List<T> list, int index) {
   if (list.isEmpty || index < 0 || index >= list.length) {
     return list;
   }

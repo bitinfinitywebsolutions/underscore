@@ -8,7 +8,7 @@
 ///
 /// Returns:
 ///   String: The joined string, or the original array if it's null or empty.
-String _join(List array, dynamic takeVal) {
+String join(List array, dynamic takeVal) {
   if (array.isNotEmpty && !isNullOrBlank(array)) {
     return array.join(takeVal);
   }
